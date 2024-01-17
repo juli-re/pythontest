@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.animation as animation
 fig, ax = plt.subplots()
 t = np.linspace(0, 3, 40)
-g = -9.81
-v0 = 12
+g = -9.812
+v0 = 13
 z = g * t**2 / 2 + v0 * t
 
 v02 = 5
